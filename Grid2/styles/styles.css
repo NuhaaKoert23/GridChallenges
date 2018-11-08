@@ -1,0 +1,124 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: initial;
+}
+
+/* STYLING OF HEADER AND NAVBAR */
+.header {
+    float: left;
+    background-color: black;
+    width: 25%;
+    align-items: center;
+}
+.avatar img {
+    border-radius: 200px;
+    width: 200px ;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border: solid 3px white;
+}
+
+.Name{
+    color: white;
+    font-size: 0.7em;
+    margin-left: 90px;
+}
+
+.slogan {
+    margin-left: 80px;
+    color: white
+}
+
+section {
+    border-top: 1px solid gray;
+    margin-bottom: 48px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.5em;
+    margin-left: 30px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.section_header1 a {
+    color: red;
+    margin-left: 70px;
+}
+
+.section_header2 a {
+    margin-left: 70px;
+    color: yellow;
+}
+
+/* First grid styling */
+#grid_gallery1 img {
+    width: 500px;
+    height: 300px;
+}
+
+#grid_gallery1 {
+    display: grid;
+    width: 70%;
+    float: right;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+}
+
+/* STYLING OF 2ND GRID */
+#grid_gallery2 img {
+    width: 400px;
+    height: 300px;
+}
+
+#grid_gallery2 {
+    display: grid;
+    width: 100%;
+    margin-left: 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+}
+
+/* STYLING OF 3RD GRID */
+#grid_gallery3 img {
+    width: 400px;
+    height: 300px;
+}
+
+#grid_gallery3 {
+    display: grid;
+    width: 100%;
+    margin-left: 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+}
+ 
+/* STYLING OF 4TH GRID */
+#grid_gallery4 img {
+    width: 400px;
+    height: 300px;
+}
+
+#grid_gallery4 {
+    display: grid;
+    width: 100%;
+    margin-left: 100px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(2,1fr);   
+}
